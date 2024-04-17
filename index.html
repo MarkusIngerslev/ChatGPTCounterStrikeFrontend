@@ -70,92 +70,6 @@
                     </div>
                 </div>
 
-                <!-- 
-                <div class="card m-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Get Joke (with IP-rate limiting)</h5>
-
-                        <form id="form-joke2" class="container">
-                            <div class="row">
-                                <p class="card-text">Same as above, but with IP-rate limitation.</p>
-                                <label for="about2">Topic</label>
-                                <input type="text" id="about2" placeholder="Enter topic for a joke" />
-                            </div>
-                            <div class="row mt-3">
-                                <div class="column text-end">
-                                    <button class="btn btn-primary" id="btn-get-joke2">
-                                        Get Joke (with IP-rate limiting)
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-
-                        <div
-                            id="spinner2"
-                            class="spinner-border text-success"
-                            role="status"
-                            style="margin-left: 1em; border-radius: 50%; display: none"
-                        >
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-
-                        <p id="result2" class="result"></p>
-                    </div>
-                </div>
-                 -->
-
-                <!--  
-                <div class="card m-3">
-                    <div class="card-body">
-                        <h5 class="card-title">Demonstrates how to feed own info into the API-request</h5>
-
-                        <form id="form-answer">
-                            <div class="row">
-                                <div class="column mb-3">
-                                    <button
-                                        type="button"
-                                        class="btn btn-dark btn-sm"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#owninfoModal"
-                                    >
-                                        How to use this example!
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="container">
-                                <div class="row">
-                                    <label for="the-question">Question </label
-                                    ><textarea
-                                        cols="100"
-                                        rows="3"
-                                        id="the-question"
-                                        placeholder="Enter a question related to this ChatGPT example"
-                                    ></textarea>
-                                </div>
-
-                                <div class="row">
-                                    <div class="column text-end mt-3">
-                                        <button type="submit" class="btn btn-primary" id="btn-get-answer">
-                                            Get answer
-                                        </button>
-                                    </div>
-                                </div>
-                                <div
-                                    id="spinner3"
-                                    class="spinner-border-lg spinner-border text-success"
-                                    role="status"
-                                    style="margin: 1em; border-radius: 50%; display: none; width: 3rem; height: 3rem"
-                                >
-                                    <span class="visually-hidden">Loading...</span>
-                                </div>
-                            </div>
-                        </form>
-                        <p id="result3" class="result"></p>
-                    </div>
-                </div>
-            </div>
-            -->
-
             <!-- Modal 1 Disclaimer about Deployment -->
             <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -179,40 +93,6 @@
                             Here, this arrangement is employed to provide a simple example that includes both the API
                             and hints on how you can design a client for the API.
                             <br />
-                            <br />
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal 2 Hints related to the owninfo endpoint -->
-            <div
-                class="modal fade"
-                id="owninfoModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-            >
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">How to use this example (own info)</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            This example shows it is possible, via this prompt, to reply with personal information,
-                            which the AI model has not been trained with.
-                            <br />
-                            <br />
-                            Try to write a question inspired by the following (but formulated in your own way)
-                            <ul>
-                                <li>Who made this ChatGPT example</li>
-                                <li>Where do I find this code</li>
-                                <li>Does the author of this example have a website</li>
-                            </ul>
                             <br />
                         </div>
                         <div class="modal-footer">
