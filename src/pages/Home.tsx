@@ -37,9 +37,9 @@ export default function Home() {
                 </div>
 
                 {/* Cards for the different funktions */}
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-6">
+                <div className="container ">
+                    <div className="row row-gap-3 justify-content-center ">
+                        <div className="col-md-5">
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">Questions</h5>
@@ -50,7 +50,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-5">
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">Roulette</h5>
