@@ -17,10 +17,10 @@ export default function NavHeader() {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon justify-content-end"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarText">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <div className="collapse navbar-collapse justify-content-end text-end" id="navbarText">
+                        <ul className="navbar-nav mb-2mb-lg-0 ">
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/">
                                     Home
