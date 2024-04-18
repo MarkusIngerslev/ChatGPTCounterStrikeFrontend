@@ -7,9 +7,10 @@ The site is only half of the projekt, and will not work without the [backend par
 ### Future plans / Todo list
 
 -   [ ] Homepage about projekt
--   [ ] Header with the different routes
-    -   [ ] Make the header dynamic
-    -   [ ] Do so the header becomes a 3 line button when folded togetter
+-   [x] Header with the different routes
+    -   [x] Make the header dynamic
+    -   [x] Do so the header becomes a 3 line button when folded togetter
+    -   [ ] Make so the header routes are to the right, and the brand logo to the left
 -   [ ] Make page for Questions
 -   [ ] Make page for roulette strats
 -   [ ] Style pages
