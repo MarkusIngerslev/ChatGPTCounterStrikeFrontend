@@ -7,7 +7,7 @@ The site is only half of the projekt, and will not work without the [backend par
 ### Future plans / Todo list
 
 -   [ ] Homepage about projekt
--   [x] Header with the different routes
+-   [ ] Header with the different routes
     -   [ ] Make the header dynamic
     -   [ ] Do so the header becomes a 3 line button when folded togetter
 -   [ ] Make page for Questions
