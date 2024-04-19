@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { fetchAnswer } from "../service/apiFetch"; // Stien til din api.ts-fil
+import { fetchAnswerQuestions } from "../service/apiFetch"; // Stien til din api.ts-fil
 
 function Questions() {
     const [question, setQuestion] = useState("");
@@ -13,7 +13,7 @@ function Questions() {
         setError("");
 
         try {
-            const response = await fetchAnswer(question);
+            const response = await fetchAnswerQuestions(question);
             setAnswer(response);
         } catch (err) {
             setError(err.message);

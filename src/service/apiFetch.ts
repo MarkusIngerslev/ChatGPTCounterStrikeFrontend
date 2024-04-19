@@ -1,7 +1,7 @@
 const SERVER_URL = "http://localhost:8080/api/v1/";
 
-export async function fetchAnswer(question: string): Promise<string> {
-    const URL = `${SERVER_URL}roulette?about=${question}`;
+export async function fetchAnswerQuestions(question: string): Promise<string> {
+    const URL = `${SERVER_URL}questions?about=${question}`;
 
     try {
         const response = await fetch(URL).then(handleHttpErrors);
