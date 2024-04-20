@@ -5,8 +5,18 @@ export default function NavHeader() {
         <>
             <nav className="navbar bg-dark border-bottom navbar-expand-md " data-bs-theme="dark">
                 <div className="container">
-                    <NavLink className="navbar-brand" to="/">
-                        CounterChat Protocol
+                    <NavLink className="navbar-brand me-0" to="/">
+                        <div className="row row-cols-2">
+                            <img
+                                src="../../../public/img/CounterChat Protocol only logo.png"
+                                alt="logo af ai chatbot"
+                                style={{ height: "60px", width: "auto" }}
+                            />
+                            <div className="col px-0">
+                                <p className="fs-5 fst-italic mb-0">CounterChat Protocol</p>
+                                <p className="fs-6 mb-0">The protocol calls for AI</p>
+                            </div>
+                        </div>
                     </NavLink>
                     <button
                         className="navbar-toggler"

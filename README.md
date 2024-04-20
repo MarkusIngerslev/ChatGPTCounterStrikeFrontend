@@ -28,5 +28,14 @@ The site is only half of the projekt, and will not work without the [backend par
     -   [x] Make route to fetch Roulette from backend
     -   [x] Make route to fetch Questions from backend
 -   Problems
+
     -   [ ] Fix error about error on Questions page
     -   [ ] Fix error about error on Roulette page
+
+
+<!-- Mulige Brand/site farver i hex -->
+<!-- #353e47 -->
+<!-- #ffffff -->
+<!-- #e2e3e4 -->
+<!-- #c5c7ca -->
+<!-- #a8acb0 -->
